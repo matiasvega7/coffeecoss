@@ -225,7 +225,7 @@ main .section .main-parrafo {
   font-family: sans-serif;
   text-shadow: 2px 3px 5px #c82d47;
   text-align: center;
-  line-height: 1.5rem;
+  line-height: 1.5 rem;
   flex-wrap: wrap;
   justify-content: space-between
 }
@@ -270,7 +270,6 @@ main .section .main-parrafo3 {
     opacity: 1;
   }
   }
-
 
 .main2 .main-parrafo4 {
   display: flex;
