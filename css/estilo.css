@@ -1,4 +1,4 @@
-/* {
+* {
   margin: 0;
   border: 0;
   padding: 0;
@@ -13,7 +13,7 @@
   color: #ffffff;
   background-color: #f5c181;
   overflow-x:hidden;
-}*/
+}
 
  .header {
   display: grid;
