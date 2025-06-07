@@ -20,8 +20,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     font-size: medium;
-  
-        .header {
+  }
+.header {
             display: grid;
             height: 160px;
             width: 100%;
@@ -35,25 +35,24 @@
             overflow-x: hidden;
             position: static;
             z-index: 1;
+}
+.link__logo{
+        width: 100px;
+        list-style: none;
+}      
   
-                    .link__logo{
-                        width: 100px;
-                        list-style: none;
+.header__logo {
+        display:flex;
+        width: 130px;
+        border-radius:120px;
+         position: relative; 
+         }
                     
-  
-                            .header__logo {
-                                display:flex;
-                                width: 130px;
-                                border-radius:120px;
-                                position: relative; 
-                            }
-                    }
   
  
   
 
-  
-        .nombre {
+   .nombre {
             display: grid;
             font-family: none;
             font-size: 34px;
@@ -109,8 +108,7 @@
                         }
             }
   
-        }
-}
+        
 main {
         .description-inicio {
             display:flex;
