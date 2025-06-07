@@ -1,0 +1,9 @@
+@import 'variables';
+@import 'resetBody';
+@import'header';
+@import 'main1';
+@import 'main2';
+@import 'nuestrosProductos';
+@import 'contacto';
+@import 'footer';
+@import 'mediaquerys';
