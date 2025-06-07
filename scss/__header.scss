@@ -1,0 +1,96 @@
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: medium;
+  
+        .header {
+            display: grid;
+            height: 160px;
+            width: 100%;
+            background-image: url(../img/d2a424d8-e178-4a29-8b96-200c16348826.jpg);
+            background-size: contain;
+            justify-content:space-between;
+            align-items: center;
+            color: $Claro;
+            border: $oscuro 1px solid;
+            flex-wrap: wrap;
+            overflow-x: hidden;
+            position: static;
+            z-index: 1;
+  
+                    .link__logo{
+                        width: 100px;
+                        list-style: none;
+                    
+  
+                            .header__logo {
+                                display:flex;
+                                width: 130px;
+                                border-radius:120px;
+                                position: relative; 
+                            }
+                    }
+  
+ 
+  
+
+  
+        .nombre {
+            display: grid;
+            font-family: none;
+            font-size: 34px;
+            text-shadow: 2px 4px 4px $oscuro ;
+        }
+  
+    
+        .navbar {
+
+            .menu-toggle {
+                    font-size: 24px;
+                    cursor: pointer;
+                    display: none;
+                }
+
+              .navbar .enlace {
+                    color:$oscuro;
+                    background-color: $Claro;
+                    display:flex;
+                    justify-content: center;
+                    text-align: center;
+                }
+                
+                .navbar .enlace {
+                    color: $Claro;
+                    background-clip:content-box;
+                    display:flex;
+                    justify-content: center;
+                    text-align: center;
+                    text-shadow: $oscuro 2px 1px;
+                }
+
+                .navbar .enlace {
+                    color: $Claro;
+                    display: inline-block;
+                    justify-content: center;
+                    text-align: center;
+                    text-shadow: $oscuro 2px 1px;
+                }
+
+                .navbar .enlace {
+                    color: $Claro;
+                    display:flex;
+                    justify-content: center;
+                    text-align: center;
+                    text-shadow: $oscuro  2px 1px;
+                }
+
+
+                         &:hover{
+                            background: border-box $Claro;
+                            cursor:grab;
+                        }
+            }
+  
+        }
+}

@@ -1,0 +1,76 @@
+ h3 {
+  display:flex;
+  font-size: 30px;
+  text-shadow: 6px 3px 5px #589dbd;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction:row;
+  animation: colorChange 4s infinite;
+}
+@keyframes colorChange {
+  0% {
+    color: rgb(183, 183, 214);
+  }
+  50% {
+    color: rgb(95, 90, 234);
+  }
+  100% {
+    color: #2222a5;
+  }
+}
+
+
+.main2 .parrafo {
+  display: flex;
+  color: #d9d9d9;
+  text-decoration: solid;
+  text-align: center;
+  align-self: center;
+  margin: 2px;
+  flex-wrap: wrap;
+  font-size: 18px;
+  overflow-x:hidden;
+
+}
+.main3{
+  display: grid;
+  grid-template-columns: 0.3fr 0.3fr 0.3fr;
+  font-size: medium;
+  padding-left: 10%;
+ 
+ 
+}
+.colum {
+  border: #000000 3px solid;
+  padding: 10px;
+  width:40vh;
+}
+.colum:hover {
+  background-color: #9bec9b;
+  transform: scale(1.5, 1.5);
+  cursor: pointer;
+}
+.colum img {
+  width:80%;
+}
+.trans2 .colum {
+  border: #000000 3px solid;
+  
+}
+.trans2 .colum:hover {
+  background-color: #9bec9b;
+  transform: scale(1.5, 1.5);
+  cursor: pointer;
+}
+
+.trans2 .colum img {
+  width: 70%;
+  
+}
+.trans2 .colum {
+  border: #000000 3px solid;
+  padding: 14px;
+}
+
+  

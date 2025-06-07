@@ -1,0 +1,132 @@
+main {
+        .description-inicio {
+            display:flex;
+            color: $oscuro;
+            border-color:2px $Claro;
+            font-size: 38px;
+            position: relative;
+            left:350px;
+            top: 140px;
+            overflow-x: hidden;
+            margin: 0;
+            height:200px;
+            width: 0;
+            overflow: hidden;
+            white-space: nowrap;
+            border-right: 2px solid $oscuro;
+            animation: typing 4s steps(30, end), blink 0.75s step-end infinite;
+        
+  
+            @keyframes typing {
+                from {
+                width: 0; 
+                }
+                to {
+                width: 100%; 
+                }    
+            }
+        }    
+  
+  
+  
+        .card-1 {
+            display:block;
+            position: relative;
+            left: 350px;
+            width:450px;
+            margin-top: 30px;
+            border: $gris solid 4px;
+            padding: 3px;
+            background-color: $oscuro;
+            align-items: center;
+        
+            &:hover {
+                background-color: $amarillento;
+                cursor: pointer;
+            }
+        }
+
+        .card-body{
+
+            .card-title {
+                font-size: 34px;
+                text-align: center;
+                text-decoration: dashed;
+                color: #000000;
+            }
+
+            .card-text {
+                font-size: 20px;
+            }
+
+        }
+
+        .card-2 {
+
+            display:block;
+            position: relative;
+            left: 350px;
+            width:450px;
+            margin-top: 20px;
+            border: $gris solid 4px;
+            padding: 3px;
+            background-color: $oscuro;
+            align-items: center;
+        
+
+            &:hover {
+                background-color: $amarillento;
+                cursor: pointer;
+            }
+        }   
+  main .card-imagen-bottom {
+    width: none;
+  }
+  main .card-body {
+    text-wrap: none;
+  }
+  main .card-title {
+    text-emphasis: none;
+  }
+  main .card-text {
+    font-size:0px;
+  }
+  main .card-text {
+    font-size:0pxx;
+  }
+  main .section .main-parrafo {
+    text-emphasis: none;
+  }
+  main .section .main-parrafo {
+    display: flex;
+    font-size: 18px;
+    color: #000000;
+    font-family: sans-serif;
+    text-shadow: 2px 3px 5px #c82d47;
+    text-align: center;
+    line-height: 1.5 rem;
+    flex-wrap: wrap;
+    justify-content: space-between
+  }
+  
+  
+  
+  main .main-video2 {
+    max-width: 50%;
+    height: auto;}
+  
+  main .section .main-parrafo3 {
+    display: flex;
+    font-size: 18px;
+    color: #000000;
+    text-decoration: solid;
+    font-family: sans-serif;
+    max-width: 80%;
+    text-shadow: 2px 3px 5px #ffa4b3;
+    flex-wrap: wrap;
+    text-align: center;
+    line-height: 2rem;
+    overflow: hidden;
+     padding-bottom: 15px;
+  
+  }}

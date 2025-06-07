@@ -1,0 +1,17 @@
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing:border-box;
+  }
+  
+  .body {
+    background-image: url(../img/fondo\ body.jpg);
+    background-position: center;
+    backface-visibility: visible;
+    font-size: 18px;
+    color:$Claro;
+    background-color:$cafe ;
+    overflow-x:hidden;
+  }
